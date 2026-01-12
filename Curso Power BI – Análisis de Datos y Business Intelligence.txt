@@ -36,4 +36,12 @@ Time Intelligence Option on Current File & Global (PBI Options)=> Create a data 
 Para crear tabla de medidas:
 Pestaña Inicio, introducir datos y se le pone solo nombre(measures esta reservada por pbi)
 
-Until 96
+Fact(Hechos) => eventos recurrentes ej ventas, devoluciones
+Dim(Dimensiones) => Segmentan tablas, descripciones
+
+Modelo en estrella (Centro tabla de hechos) => Forma una estrella con las dim alrededor
+
+Normalmente se modela las de hechos abajo y las dim arriba, asi al agregar se van poniendo y quedan mas visibles
+
+
+
