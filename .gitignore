@@ -1,0 +1,8 @@
+# Ignore large data files
+Proyectos/Proyecto5- DAX/ContosoSales.accdb
+Proyectos/Proyecto5- DAX/ContosoSales.zip   
+
+# Ignore temporary files
+*.tmp
+*.log
+# Ignore system files

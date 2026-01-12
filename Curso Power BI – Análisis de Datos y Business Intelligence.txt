@@ -32,7 +32,6 @@ https://app.powerbi.com/groups/me/reports/feacaced-32bd-478a-82c4-799c1d2ea31b/6
 
 Time Intelligence Option on Current File & Global (PBI Options)=> Create a data hierarchy automatically
 
-
 Para crear tabla de medidas:
 Pestaña Inicio, introducir datos y se le pone solo nombre(measures esta reservada por pbi)
 
@@ -42,6 +41,8 @@ Dim(Dimensiones) => Segmentan tablas, descripciones
 Modelo en estrella (Centro tabla de hechos) => Forma una estrella con las dim alrededor
 
 Normalmente se modela las de hechos abajo y las dim arriba, asi al agregar se van poniendo y quedan mas visibles
+
+Es buena practica ocultar las llaves de la tabla de hecho al relacionar, ya que para usarlas deberia usarlas desde la dimension
 
 
 
