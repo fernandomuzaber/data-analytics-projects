@@ -44,5 +44,66 @@ Normalmente se modela las de hechos abajo y las dim arriba, asi al agregar se va
 
 Es buena practica ocultar las llaves de la tabla de hecho al relacionar, ya que para usarlas deberia usarlas desde la dimension
 
+1. git reset (Para commits locales que no has subido)
+git reset es como una máquina del tiempo que reescribe la historia. Mueve el puntero de tu rama (por ejemplo, main) hacia un commit anterior, haciendo que todos los commits que vinieron después desaparezcan de la historia de esa rama.
 
+Cuándo usarlo: Úsalo solamente en commits de tu repositorio local que aún no has subido con git push.
+Por qué es útil: Es perfecto para corregir errores que acabas de cometer antes de compartirlos. Esto es exactamente lo que hicimos: tu commit con los archivos grandes solo existía en tu máquina, así que pudimos "borrarlo" de forma segura con git reset para arreglarlo.
+El peligro: Si usas git reset en un commit que ya está en GitHub, estarás reescribiendo una historia que otros podrían tener. La próxima vez que alguien intente sincronizar sus cambios, Git se encontrará con dos historias diferentes y generará conflictos muy confusos para todos.
+Analogía: Es como arrancar una página de tu diario personal. Nadie más lo ha leído, así que no hay problema.
+
+2. git revert (Para commits que ya subiste)
+git revert no borra nada. En su lugar, crea un nuevo commit que es el inverso del commit que quieres deshacer. Si el commit original agregó una línea de código, el "revert commit" la eliminará.
+
+Cuándo usarlo: Úsalo siempre para deshacer cambios en commits que ya has subido con git push.
+Por qué es seguro: No reescribe la historia, sino que la añade. El commit original sigue ahí, pero sus cambios son anulados por el nuevo "revert commit". Como es un commit nuevo, se puede subir a GitHub sin causar conflictos a nadie. Mantiene la historia del proyecto intacta y transparente.
+Analogía: Es como añadir una nueva entrada en tu diario que dice: "Corrección: lo que escribí ayer en la página X no es correcto". No arrancas la página, solo añades una corrección.
+
+Regla de Oro
+¿El commit solo existe en mi máquina? -> Usa git reset.
+¿El commit ya está en GitHub (o compartido)? -> Usa git revert.
+
+
+¡Excelente pregunta! Las opciones --soft, --mixed y --hard le dicen a git reset qué hacer con los cambios de los commits que está deshaciendo.
+
+Imagina que git reset tiene dos trabajos:
+
+Mover el HEAD: Es decir, regresar en la historia de los commits (esto lo hacen los tres modos).
+Actualizar los archivos: Aquí es donde se diferencian.
+git reset --soft (El más suave)
+Este modo deshace el commit, pero no toca tus archivos ni el "área de preparación" (staging area).
+
+Historia: El commit se deshace.
+Archivos: Los cambios se quedan preparados (staged), listos para un nuevo commit. Tu editor de código no muestra ninguna diferencia.
+Cuándo usarlo: Perfecto para cuando solo quieres cambiar el mensaje del último commit o añadir un archivo que olvidaste. Deshaces el commit, haces el pequeño ajuste y vuelves a "commitear" inmediatamente. Este es el que usamos nosotros para poder quitar los archivos grandes del staging sin perder los demás cambios.
+Analogía: Pides un plato en un restaurante y justo cuando se lo lleva el camarero, te arrepientes. Con --soft, el camarero simplemente regresa el plato a tu mesa. Aún está listo para comer, y puedes añadirle sal o cambiarlo por otro antes de que se lo lleven de nuevo.
+
+git reset --mixed (El intermedio y por defecto)
+Este es el modo que Git usa si no especificas ninguno. Deshace el commit y saca los cambios del área de preparación.
+
+Historia: El commit se deshace.
+Archivos: Los cambios se mantienen en tu carpeta (directorio de trabajo), pero no están preparados (unstaged). Aparecerán como "modificaciones no preparadas para commit" si ejecutas git status.
+Cuándo usarlo: Útil si quieres deshacer uno o más commits y re-organizar completamente qué cambios quieres incluir en los nuevos commits.
+Analogía: El camarero regresa el plato a tu mesa (--soft), pero además lo desarma y pone todos los ingredientes a un lado. Tienes todos los componentes, pero si quieres comer, tienes que volver a armar el plato (git add) y pedir que se lo lleven (git commit).
+
+git reset --hard (El más drástico y peligroso)
+Este modo es el más radical. Deshace el commit y borra todos los cambios asociados a él.
+
+Historia: El commit se deshace.
+Archivos: Todos los cambios se eliminan permanentemente de tus archivos y del área de preparación. Tu código vuelve a ser una copia exacta del commit al que regresaste.
+Cuándo usarlo: Solo cuando estás 100% seguro de que todo lo que hiciste en el último (o últimos) commit(s) es un error y quieres borrarlo por completo sin dejar rastro. Es muy difícil recuperar los cambios después de un reset --hard.
+Analogía: Le dices al camarero que no querías ese plato, y él lo tira directamente a la basura. No hay forma de recuperarlo.
+
+Tabla Resumen
+Modo de reset	¿Qué le pasa al commit?	¿Qué le pasa a tus cambios?
+--soft	Se deshace	Se quedan preparados (staged)
+--mixed	Se deshace	Se quedan como modificaciones locales (unstaged)
+--hard	Se deshace	Se borran para siempre
+
+
+Commit messages GIT 
+
+feat : feature
+fix : bug fix
+docs : info 
 

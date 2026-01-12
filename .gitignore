@@ -6,3 +6,7 @@ Proyectos/Proyecto5- DAX/ContosoSales.zip
 *.tmp
 *.log
 # Ignore system files
+.DS_Store
+Thumbs.db
+# Ignore IDE specific files
+.vscode/
