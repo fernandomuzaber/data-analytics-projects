@@ -44,6 +44,11 @@ Normalmente se modela las de hechos abajo y las dim arriba, asi al agregar se va
 
 Es buena practica ocultar las llaves de la tabla de hecho al relacionar, ya que para usarlas deberia usarlas desde la dimension
 
+
+-----------------------------------O----------------------------------------------------------------
+
+GIT DATA:
+
 1. git reset (Para commits locales que no has subido)
 git reset es como una máquina del tiempo que reescribe la historia. Mueve el puntero de tu rama (por ejemplo, main) hacia un commit anterior, haciendo que todos los commits que vinieron después desaparezcan de la historia de esa rama.
 
@@ -108,5 +113,12 @@ fix : bug fix
 docs : info 
 refactor: updates != create (feat)
 
-Until 100
 
+--------------------------------------O------------------------------------
+
+RETOMO PBI 💯
+
+Desde el modelo de datos (la vista de modelo), si puedo arrastrar las medidas para moverlas a otra tabla
+También se le puede agregar formato desde la vista de modelo a varias medidas en simultaneo 
+
+Until 101
