@@ -121,4 +121,6 @@ RETOMO PBI 💯
 Desde el modelo de datos (la vista de modelo), si puedo arrastrar las medidas para moverlas a otra tabla
 También se le puede agregar formato desde la vista de modelo a varias medidas en simultaneo 
 
-Until 101
+Until 102
+
+Columnas calculadas trabaja a nivel filas, en teoria, ssi cambio el formato desde la vista de tabla se cambia en power query (creo que no pasa en la practica, segun mi experiencia, pero probar)
