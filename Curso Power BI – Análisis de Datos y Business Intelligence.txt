@@ -127,14 +127,32 @@ Columnas calculadas trabaja a nivel filas, en teoria, ssi cambio el formato desd
 Las columnas calculadas consumen mucha memoria, las medidas estan optimizadas para hacer esto. Las columnas sirven para condicionales 
 
 OR DAX:
-FinSemana = 
-IF(
-    OR(
-        DimCalendar[DiaSemana] = 6,
-        DimCalendar[DiaSemana] = 7),
-    "Fin Semana",
-    "Día Laboral"
-)
+
+    FinSemana = 
+    IF(
+        OR(
+            DimCalendar[DiaSemana] = 6,
+            DimCalendar[DiaSemana] = 7),
+        "Fin Semana",
+        "Día Laboral"
+    )
+
+    Otra manera del OR => pipe
+        FinSemana = 
+        IF(
+                DimCalendar[DiaSemana] = 6 ||
+                DimCalendar[DiaSemana] = 7,
+            "Fin Semana",
+            "Día Laboral"
+        )
+
+    Otra manera: IN 
+        FinSemana = 
+        IF(
+                DimCalendar[DiaSemana] IN {6,7},
+            "Fin Semana",
+            "Día Laboral"
+        )
     
 
 Característica          DAX (Data Analysis Expressions)                         M (Power Query Formula Language)
@@ -158,3 +176,21 @@ Usa M para Columnas Personalizadas cuando:
     Quieres limpiar los datos (ej. quitar espacios, separar nombres y apellidos).
     Necesitas filtrar filas o combinar tablas antes de que lleguen al reporte para que este sea más ligero.
     Deseas que el cálculo se realice una sola vez durante la actualización de los datos.
+
+
+Al usar OR es buena practica poner las condiciones afectadas entre parentesis 
+
+
+AND with OR 
+
+MalaSuerte = 
+IF(
+    (DimCalendar[CalendarDayOfWeekLabel] = "Tuesday" 
+    ||
+    DimCalendar[CalendarDayOfWeekLabel] = "Friday" 
+    ) 
+    &&
+    DimCalendar[Dia] = 13,
+    "Mala Suerte",
+    "Día Normal"
+)
