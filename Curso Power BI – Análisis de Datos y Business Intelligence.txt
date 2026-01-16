@@ -146,3 +146,15 @@ Almacenamiento          Utiliza la memoria RAM del modelo.                      
 
 
 Una regla de oro en Power BI es: "Si puedes hacerlo en Power Query (M), hazlo ahí; si necesitas el contexto de los datos o cálculos dinámicos, usa DAX".
+
+Usa DAX para Columnas Calculadas cuando:
+
+    Necesitas que la columna responda a relaciones entre tablas que ya están en el modelo.
+    Vas a realizar cálculos financieros o estadísticos complejos (como comparar ventas de este año vs. el anterior).
+    Necesitas usar funciones de "Inteligencia de Tiempo".
+
+Usa M para Columnas Personalizadas cuando:
+
+    Quieres limpiar los datos (ej. quitar espacios, separar nombres y apellidos).
+    Necesitas filtrar filas o combinar tablas antes de que lleguen al reporte para que este sea más ligero.
+    Deseas que el cálculo se realice una sola vez durante la actualización de los datos.
