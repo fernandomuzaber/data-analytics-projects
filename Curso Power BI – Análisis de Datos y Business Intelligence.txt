@@ -125,3 +125,21 @@ También se le puede agregar formato desde la vista de modelo a varias medidas e
 Columnas calculadas trabaja a nivel filas, en teoria, ssi cambio el formato desde la vista de tabla se cambia en power query (creo que no pasa en la practica, segun mi experiencia, pero probar)
 
 Las columnas calculadas consumen mucha memoria, las medidas estan optimizadas para hacer esto. Las columnas sirven para condicionales 
+
+OR DAX:
+FinSemana = 
+IF(
+    OR(
+        DimCalendar[DiaSemana] = 6,
+        DimCalendar[DiaSemana] = 7),
+    "Fin Semana",
+    "Día Laboral"
+)
+    
+
+Característica          DAX (Data Analysis Expressions)                         M (Power Query Formula Language)
+Uso Principal           Análisis de datos y cálculos complejos                  "Extracción, transformación y carga (ETL)."
+Ubicación               Vista de Informe o Vista de Datos                       Editor de Power Query.
+Resultado               "Columnas calculadas, medidas y tablas calculadas."     Columnas personalizadas y transformaciones de tabla.
+Momento de ejecución    Después de que los datos se han cargado al modelo.      Durante la carga o actualización de los datos.
+Almacenamiento          Utiliza la memoria RAM del modelo.                      Define cómo se estructura el dato antes de entrar al modelo.
