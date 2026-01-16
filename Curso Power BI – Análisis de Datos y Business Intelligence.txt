@@ -194,3 +194,5 @@ IF(
     "Mala Suerte",
     "Día Normal"
 )
+
+OR es dentro de la misma columna != and (aplica para multiples columnas )
