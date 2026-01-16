@@ -143,3 +143,6 @@ Ubicación               Vista de Informe o Vista de Datos                      
 Resultado               "Columnas calculadas, medidas y tablas calculadas."     Columnas personalizadas y transformaciones de tabla.
 Momento de ejecución    Después de que los datos se han cargado al modelo.      Durante la carga o actualización de los datos.
 Almacenamiento          Utiliza la memoria RAM del modelo.                      Define cómo se estructura el dato antes de entrar al modelo.
+
+
+Una regla de oro en Power BI es: "Si puedes hacerlo en Power Query (M), hazlo ahí; si necesitas el contexto de los datos o cálculos dinámicos, usa DAX".
