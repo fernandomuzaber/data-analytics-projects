@@ -123,3 +123,5 @@ También se le puede agregar formato desde la vista de modelo a varias medidas e
 
 
 Columnas calculadas trabaja a nivel filas, en teoria, ssi cambio el formato desde la vista de tabla se cambia en power query (creo que no pasa en la practica, segun mi experiencia, pero probar)
+
+Las columnas calculadas consumen mucha memoria, las medidas estan optimizadas para hacer esto. Las columnas sirven para condicionales 
