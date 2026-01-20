@@ -205,8 +205,8 @@ Reemplazar valores => SUBSTITUTE
 Tienda = 
 SUBSTITUTE(DimStores[StoreName], "Store", BLANK())
 
-Las transformaciones son en powerquery mas eficientes
+Las transformaciones son en powerquery (M) mas eficientes
 
-Las nuevas columnas que se hacen en dax no se ven en PQ 
+Las nuevas columnas que se hacen en dax no se ven en PQ (M)
 
-En general , en PQ, las transformaciones se hacen desde la UI facilmente, tiene la CapitalCase que DAX no. 
+En general , en PQ => M, las transformaciones se hacen desde la UI facilmente, tiene la CapitalCase que DAX no. 
