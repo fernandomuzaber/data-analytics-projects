@@ -196,3 +196,6 @@ IF(
 )
 
 OR es dentro de la misma columna != and (aplica para multiples columnas )
+
+Fechas , columnas calculadas:
+FORMAT() => la columna base tiene que estar en formato date, tanto para "MMM" o "D" , 4 significan nombre completo. 1 y 2 numero con 0 o sin cero adelante de ser un digito, y 3 son los 3 primeros char
