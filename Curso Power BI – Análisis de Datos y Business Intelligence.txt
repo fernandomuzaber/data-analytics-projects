@@ -210,3 +210,52 @@ Las transformaciones son en powerquery (M) mas eficientes
 Las nuevas columnas que se hacen en dax no se ven en PQ (M)
 
 En general , en PQ => M, las transformaciones se hacen desde la UI facilmente, tiene la CapitalCase que DAX no. 
+
+RELATED : 
+
+Ubicación Física = 
+RELATED(DimGeography[Ubicación completa])
+
+(trae de otra columna los valores relacionados)
+
+Diferencia entre RELATED y traer campo desde la vista de visualizacion  (Gemini):
+
+ 1. La función `RELATED` (DAX)
+
+Se usa principalmente para crear **columnas calculadas**. Lo que hace es traer físicamente un valor desde el lado "uno" de una relación al lado "muchos".
+
+* **Costo de Almacenamiento:**
+
+    Crea una copia física de los datos. Si tu tabla de ventas tiene 1 millón de filas y usas `RELATED` para traer el nombre de la categoría, ahora tienes 1 millón de registros adicionales ocupando memoria RAM.
+
+    Momento de cálculo: Se calcula únicamente cuando se cargan o actualizan los datos (en el refresco).
+    
+    Contexto de fila: Funciona porque DAX recorre fila por fila la tabla actual y busca su pareja en la tabla relacionada.
+
+### 2. Columna directa en la Visualización
+
+Es cuando simplemente arrastras el campo desde su tabla original al objeto visual (gráfico, tabla o matriz) donde ya tienes otros datos.
+
+    Eficiencia:** No duplica datos. El motor de Power BI (VertiPaq) simplemente sigue el "camino" de la relación existente en el modelo de datos en el momento en que abres el reporte.
+
+    Dinámico:** Se calcula en tiempo de ejecución (Query time).
+
+    *Contexto de Filtro:** El valor se filtra dinámicamente según lo que selecciones en otros segmentadores o gráficos.
+
+---
+
+### Comparativa Directa
+
+| Característica |       Función `RELATED` (Columna Calculada)                          Columna desde la Tabla Original 
+| **Memoria (RAM)        Aumenta** el tamaño del modelo.                                No ocupa memoria extra. 
+| **Rendimiento** |     Puede ralentizar el refresco de datos. |                        Es la forma más óptima para el motor. 
+| **Uso Principal** |   Cuando necesitas el valor para filtrar otra columna o para      Para segmentar, categorizar y mostrar en reportes. 
+                        cálculos intermedios complejos
+| **Regla de Oro** |    **Evitarla** si solo es para mostrar el dato en un visual.      **Preferirla** siempre que sea posible. 
+
+
+### ¿Cuándo SÍ tiene sentido usar `RELATED`?
+
+Usar solo si el valor que traes es **imprescindible** para un cálculo que no se puede resolver mediante una medida o si necesitas ese valor para crear una jerarquía (por ejemplo, País > Provincia > Ciudad) y los datos están en tablas separadas.
+
+En un **Esquema en Estrella** (que es el estándar de oro en Power BI), lo ideal es que las dimensiones (tablas de búsqueda) contengan todos sus atributos y las tablas de hechos (ventas, transacciones) se conecten a ellas. Si necesitas ver el nombre de un producto en tus ventas, simplemente arrastra el nombre desde la tabla `Productos`. No hace falta "traerlo" físicamente a la tabla `Ventas` con un `RELATED`.
