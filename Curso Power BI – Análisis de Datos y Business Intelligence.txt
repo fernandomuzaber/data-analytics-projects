@@ -260,5 +260,4 @@ Usar solo si el valor que traes es **imprescindible** para un cálculo que no se
 
 En un **Esquema en Estrella** (que es el estándar de oro en Power BI), lo ideal es que las dimensiones (tablas de búsqueda) contengan todos sus atributos y las tablas de hechos (ventas, transacciones) se conecten a ellas. Si necesitas ver el nombre de un producto en tus ventas, simplemente arrastra el nombre desde la tabla `Productos`. No hace falta "traerlo" físicamente a la tabla `Ventas` con un `RELATED`.
 
-
-Until 105
+Until 106
