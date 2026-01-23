@@ -280,3 +280,5 @@ COUNTAX	        ✅	            ✅	            ✅	            ✅	            
 DISTINCTCOUNT	✅	            ✅	            ✅	            ❌	                    ❌
 
 COUNTBLANK() => Cuenta valores en blanco
+
+Until CALCULATE (107)
