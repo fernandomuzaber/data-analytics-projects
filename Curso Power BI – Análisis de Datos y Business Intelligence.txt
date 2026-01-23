@@ -263,3 +263,5 @@ En un **Esquema en Estrella** (que es el estándar de oro en Power BI), lo ideal
 COUNT & COUNTROWS
 
 COUNTROWS => Tiene mejor desempeño, toma la tabla
+
+COUNTA => Cuenta los valores de esa columna no vacios => que tienen valor
