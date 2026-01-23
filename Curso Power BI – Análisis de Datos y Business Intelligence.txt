@@ -262,6 +262,19 @@ En un **Esquema en Estrella** (que es el estándar de oro en Power BI), lo ideal
 
 COUNT & COUNTROWS
 
-COUNTROWS => Tiene mejor desempeño, toma la tabla
+COUNTROWS() => Tiene mejor desempeño que COUNT(), toma la tabla
 
-COUNTA => Cuenta los valores de esa columna no vacios => que tienen valor
+DISTINCTCOUNT() => Por ejemplo de la tabla de ventas cuenta la cantidad de tiendas diferentes que hay
+#Me expandirias la diferencia entre las funciones count de DAX?
+
+
+COUNTA() => Cuenta los valores de esa columna no vacios => que tienen valor
+
+
+Function	    Counts 	        Counts 	        Counts 	            Counts 	            Evaluates Row-by-Row
+                Numbers         Text            Booleans            Duplicates
+COUNT	        ✅	            ❌	            ❌	            ✅	                    ❌
+COUNTA	        ✅	            ✅	            ✅	            ✅	                    ❌
+COUNTX	        ✅	            ✅	            ❌	            ✅	                    ❌
+COUNTAX	        ✅	            ✅	            ✅	            ✅	                    ✅
+DISTINCTCOUNT	✅	            ✅	            ✅	            ❌	                    ❌
