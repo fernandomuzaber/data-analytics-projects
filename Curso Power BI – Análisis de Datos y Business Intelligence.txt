@@ -278,3 +278,5 @@ COUNTA	        ✅	            ✅	            ✅	            ✅	             
 COUNTX	        ✅	            ✅	            ❌	            ✅	                    ❌
 COUNTAX	        ✅	            ✅	            ✅	            ✅	                    ✅
 DISTINCTCOUNT	✅	            ✅	            ✅	            ❌	                    ❌
+
+COUNTBLANK() => Cuenta valores en blanco
