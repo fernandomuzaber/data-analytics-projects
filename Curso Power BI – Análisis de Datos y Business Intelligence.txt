@@ -328,8 +328,10 @@ CALCULATE(
 )
 
 YTD Ingresos 2 = 
-//Lo mismo que YTD Ingresos pero con SugarSyntax (usa calculate la funcion)
+//Lo mismo que YTD Ingresos pero con SugarSyntax (usa calculate la funcion) , se pueden aplicar mas filtros que con la otra versión 
 TOTALYTD(
     [Total Ingresos],
      DimCalendar[DateKey]
 ) 
+
+Until 111
