@@ -281,4 +281,6 @@ DISTINCTCOUNT	✅	            ✅	            ✅	            ❌	              
 
 COUNTBLANK() => Cuenta valores en blanco
 
-Until CALCULATE (107)
+
+CALCULATE()
+    Toma una expresion (medida), o crear mismo una medida ahi con DAX y despues se le puede agregar filtros de otras tablas de hechos o dimensiones que esten relacionadas en el esquema
