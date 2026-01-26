@@ -284,3 +284,21 @@ COUNTBLANK() => Cuenta valores en blanco
 
 CALCULATE()
     Toma una expresion (medida), o crear mismo una medida ahi con DAX y despues se le puede agregar filtros de otras tablas de hechos o dimensiones que esten relacionadas en el esquema
+
+ALL/FILTER
+
+ALL() => No considera ningún filtro (REMUEVE el contexto de filtro para la tabla que estemos considerando)
+
+% ALL Computers Category = 
+DIVIDE(
+    [Total Ordenes],
+    CALCULATE(
+        [Total Ordenes],
+        //ALL(DimProductCategory[ProductCategory]) = "Computers" => no funciona filtrando, hay que agregar filter
+        FILTER(
+            ALL(DimProductCategory),
+            DimProductCategory[ProductCategory] = "Computers"
+        )
+    ),
+    0
+)
