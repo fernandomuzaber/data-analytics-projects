@@ -326,3 +326,10 @@ CALCULATE(
     [Total Ingresos],
     DATESYTD(DimCalendar[DateKey])    //Existe quarter to date y otras, toma las fechas acumuladas segun el campo calendario principal
 )
+
+YTD Ingresos 2 = 
+//Lo mismo que YTD Ingresos pero con SugarSyntax (usa calculate la funcion)
+TOTALYTD(
+    [Total Ingresos],
+     DimCalendar[DateKey]
+) 
