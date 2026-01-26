@@ -302,3 +302,16 @@ DIVIDE(
     ),
     0
 )
+
+
+IteradorX 
+SUMX /COUNTX / AVERAGEX
+
+Lo mas eficiente en Power BI es evitar las columnas calculadas (Consumen mucha RAM), utilizando medidas DAX para calculos. 
+SUMX() => Itera fila por fila para una determinada operacion. Ejemplo:
+
+Total Ingresos = 
+SUMX(
+    FactSales,
+    FactSales[SalesQuantity] * FactSales[Dcto Mayoreo] * RELATED(DimProduct[UnitPrice])
+)
