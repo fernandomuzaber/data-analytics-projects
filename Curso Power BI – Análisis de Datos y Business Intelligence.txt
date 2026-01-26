@@ -315,3 +315,14 @@ SUMX(
     FactSales,
     FactSales[SalesQuantity] * FactSales[Dcto Mayoreo] * RELATED(DimProduct[UnitPrice])
 )
+
+TimeIntelligence:
+
+La tabla calendario debe estar marcada como tal, y la columna key de la tabla debe ser de tipo DATE 
+DATESYTD / DATESQTD / DATESMTD / DATESWTD => Funcionan bajo el mismo principio que YTD 
+
+YTD Ingresos // Ingresos en el año, year to date = 
+CALCULATE(
+    [Total Ingresos],
+    DATESYTD(DimCalendar[DateKey])    //Existe quarter to date y otras, toma las fechas acumuladas segun el campo calendario principal
+)
