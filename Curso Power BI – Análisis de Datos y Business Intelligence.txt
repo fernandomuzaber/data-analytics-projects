@@ -339,5 +339,14 @@ Last YEAR Function
 Total Ingresos LY = //Last year
 CALCULATE(
     [Total Ingresos],
-    SAMEPERIODLASTYEAR(DimCalendar[DateKey])   //Uso la key de la tabla calendar 
+    //SAMEPERIODLASTYEAR(DimCalendar[DateKey]) //Syntax Sugar, mas dificil de manipular
+    DATEADD(DimCalendar[DateKey], -1, YEAR) //Otra manera, mas facil de usar y de manipular para el fin 
+)
+
+
+Last month 👍
+Total Ingresos LM = //Last month 
+CALCULATE(
+    [Total Ingresos],
+    DATEADD(DimCalendar[DateKey], -1 , MONTH)
 )
