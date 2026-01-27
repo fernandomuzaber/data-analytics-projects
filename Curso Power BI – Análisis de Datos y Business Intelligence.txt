@@ -334,4 +334,10 @@ TOTALYTD(
      DimCalendar[DateKey]
 ) 
 
-Until 111
+Last YEAR Function 
+
+Total Ingresos LY = //Last year
+CALCULATE(
+    [Total Ingresos],
+    SAMEPERIODLASTYEAR(DimCalendar[DateKey])   //Uso la key de la tabla calendar 
+)
