@@ -343,10 +343,15 @@ CALCULATE(
     DATEADD(DimCalendar[DateKey], -1, YEAR) //Otra manera, mas facil de usar y de manipular para el fin 
 )
 
-
 Last month 👍
 Total Ingresos LM = //Last month 
 CALCULATE(
     [Total Ingresos],
     DATEADD(DimCalendar[DateKey], -1 , MONTH)
 )
+
+Copos de nieve (jerarquias ) => normalizaciones de datos (db)
+
+En Power BI lo mejor es Desnormalizar las dimensiones. 
+
+Para desnormalizar , desde PQ combinar consultas, parto desde la subcategoria para mergear con la categoria. Desde subcategory me traigo category sin repetir el id que ya lo tengo. Deshabilito la carga en category para reducir el modelo 
