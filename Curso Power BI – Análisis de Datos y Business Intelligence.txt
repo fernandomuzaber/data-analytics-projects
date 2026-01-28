@@ -361,5 +361,8 @@ RANKX
 Rank Ingresos Tiendas = 
 RANKX(
     ALL(DimStores), //Toda la tabla como primer parametro
-    [Total Ingresos Netos]
+    [Total Ingresos Netos], //Valor para rankear
+    ,
+    ASC //default es DESC , orden para rank ASC el # mas alto tiene la ultima posicion != DESC 
+    
 )
