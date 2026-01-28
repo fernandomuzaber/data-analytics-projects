@@ -413,3 +413,5 @@ SWITCH(
     [Rank Ingresos Tiendas] <= 100, "⭐⭐",
     "⭐"
 )
+
+Until 115
