@@ -378,6 +378,8 @@ Para emular el ALLSELECTED con el ALL tengo que usar la columna especifica en el
 
 SWITCH() => Condicional 
 
+En columna calculada:
+
 Tamaño Tienda = 
 SWITCH(
     TRUE(),   //Va true para especificar cuando se cumplen las condiciones abajo hazme esto o lo otro
@@ -386,3 +388,6 @@ SWITCH(
     DimStores[SellingAreaSize] > 800,"Grande"
 )
 Seleccion + Con shift +alt + down => copia la linea para abajo
+
+En medida:
+Se necesita referenciar una medida ya creada para ejecutarlo 
