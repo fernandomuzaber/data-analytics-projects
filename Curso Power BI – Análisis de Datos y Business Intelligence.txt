@@ -366,3 +366,11 @@ RANKX(
     ASC //default es DESC , orden para rank ASC el # mas alto tiene la ultima posicion != DESC 
     
 )
+
+Rank Ingresos Stores = 
+RANKX(
+    ALL(DimStores[Store]),  //Para ordenar que tome un campo 
+    [Total Ingresos Netos]
+)
+
+Para emular el ALLSELECTED con el ALL tengo que usar la columna especifica en el ALL en un contexto de filtros 
