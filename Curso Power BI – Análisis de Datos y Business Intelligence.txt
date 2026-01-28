@@ -391,3 +391,25 @@ Seleccion + Con shift +alt + down => copia la linea para abajo
 
 En medida:
 Se necesita referenciar una medida ya creada para ejecutarlo 
+
+Rank Ingresos Tiendas Cat = 
+SWITCH(
+    TRUE(),
+    [Rank Ingresos Tiendas] <= 10, "Top 10",
+    [Rank Ingresos Tiendas] <= 25, "Sobresaliente",
+    [Rank Ingresos Tiendas] <= 50, "Bueno",
+    [Rank Ingresos Tiendas] <= 100, "Regular",
+    "Incompetente"
+)
+
+Se pueden usar emojis muchas veces
+
+Rank Ingresos Tiendas Cat = 
+SWITCH(
+    TRUE(),
+    [Rank Ingresos Tiendas] <= 10, "⭐⭐⭐⭐⭐",
+    [Rank Ingresos Tiendas] <= 25, "⭐⭐⭐⭐",
+    [Rank Ingresos Tiendas] <= 50, "⭐⭐⭐",
+    [Rank Ingresos Tiendas] <= 100, "⭐⭐",
+    "⭐"
+)
