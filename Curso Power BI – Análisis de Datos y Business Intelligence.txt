@@ -374,3 +374,5 @@ RANKX(
 )
 
 Para emular el ALLSELECTED con el ALL tengo que usar la columna especifica en el ALL en un contexto de filtros 
+
+Until 114 
