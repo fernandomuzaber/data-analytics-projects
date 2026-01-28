@@ -355,3 +355,11 @@ Copos de nieve (jerarquias ) => normalizaciones de datos (db)
 En Power BI lo mejor es Desnormalizar las dimensiones. 
 
 Para desnormalizar , desde PQ combinar consultas, parto desde la subcategoria para mergear con la categoria. Desde subcategory me traigo category sin repetir el id que ya lo tengo. Deshabilito la carga en category para reducir el modelo 
+
+RANKX
+
+Rank Ingresos Tiendas = 
+RANKX(
+    ALL(DimStores), //Toda la tabla como primer parametro
+    [Total Ingresos Netos]
+)
