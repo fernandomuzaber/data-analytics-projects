@@ -375,4 +375,14 @@ RANKX(
 
 Para emular el ALLSELECTED con el ALL tengo que usar la columna especifica en el ALL en un contexto de filtros 
 
-Until 114 
+
+SWITCH() => Condicional 
+
+Tamaño Tienda = 
+SWITCH(
+    TRUE(),   //Va true para especificar cuando se cumplen las condiciones abajo hazme esto o lo otro
+    DimStores[SellingAreaSize] <= 500,"Pequeña",
+    DimStores[SellingAreaSize] <= 800,"Mediana",
+    DimStores[SellingAreaSize] > 800,"Grande"
+)
+Seleccion + Con shift +alt + down => copia la linea para abajo
