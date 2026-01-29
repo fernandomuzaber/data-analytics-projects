@@ -414,7 +414,7 @@ SWITCH(
     "⭐"
 )
 
-Toolkits
+Tooltits
 
-En configuracion del lienzo selecciono "informacion sobre herramientas"  en tipo para definirlo como toolkit y creo la/las visualizaciones que deseo mostrar como toolkit. Luego en la visualizacion que deseo en la parte de opciones generales, habilito la opcion de informacion sobre herramientas y selecciono el toolkit creado.
+En configuracion del lienzo selecciono "informacion sobre herramientas"  en tipo para definirlo como tooltip y creo la/las visualizaciones que deseo mostrar como toolkip. Luego en la visualizacion que deseo en la parte de opciones generales, habilito la opcion de informacion sobre herramientas y selecciono el tooltip creado.
 Se puede modificar la pagina seleccionando en vez de informacion sobre herramientas , personalizado y le cambio el tamaño 
