@@ -425,3 +425,11 @@ Titulo Ingresos =
 "Total Ingresos: " & FORMAT([Total Ingresos Netos], "$ #,##0")
 
 Lo puedo aplicar en el titulo del tooltip de grafico para juntar visualizacion de card con la de treemap
+
+Condicional con emojis en titulo DAX: 
+
+Título Devoluciones = 
+VAR indicador = IF([Ratio Devoluciones] <= 0.01,"✅","❌")
+RETURN 
+"% Devoluciones: " & FORMAT([Ratio Devoluciones],"0.00%" & indicador & 
+" - Cantidad: " & FORMAT([Total Ordenes Devueltas], "0,0"))
