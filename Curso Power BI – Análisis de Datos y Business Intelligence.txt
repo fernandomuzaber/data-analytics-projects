@@ -435,3 +435,8 @@ RETURN
 " - Cantidad: " & FORMAT([Total Ordenes Devueltas], "0,0"))
 
 Filtros en segmentadores => Para que no muestren registros sin datos (desde el panel de filtros, campo de filtrado => not blank)
+
+Filtros dinamicos en el titulo:
+
+Titulo Filtros = 
+SELECTEDVALUE(DimProduct[ProductCategory],"Multiple") //Segundo parametro es un resultado alternativo
