@@ -457,3 +457,4 @@ RETURN
 
 "Total Ingresos : " & FORMAT([Total Ingresos Netos], "$0,0") & indicador 
 
+Until 121 for now 
