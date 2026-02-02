@@ -447,3 +447,12 @@ RETURN
 "Comparativa de Total Ingresos vs Año Anterior segmentado por:
 - Año: " & FiltroAnio &
 " - Producto: " & FiltroProd & "- Continente: " & FiltroCont
+
+
+No pasa nada si el mismo nombre de variable se repite en != medidas, solo se reconoce en el ambiente de la medida 
+
+Título Ingresos Variacion LY = 
+VAR indicador = IF([Total Ingresos Variacion LY] < 0 , "❌", "✅")
+RETURN 
+
+"Total Ingresos : " & FORMAT([Total Ingresos Netos], "$0,0") & indicador 
