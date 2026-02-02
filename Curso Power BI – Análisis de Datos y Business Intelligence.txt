@@ -461,9 +461,10 @@ Parametros:
 Until 124 for now 
 
 
+-----------------------------------------------0------------------------------------------------------
+
 **Para ver en algun momento**  => extension de conocimiento en DAX y Bookmarks en Power BI 
 
 
     Playlist para ver en algun momento:
     https://www.youtube.com/playlist?list=PLXR1MU_rf6FLumpTjiArxZ_Z3kCCEYSNH
-
