@@ -457,4 +457,11 @@ RETURN
 
 "Total Ingresos : " & FORMAT([Total Ingresos Netos], "$0,0") & indicador 
 
-Until 122 for now 
+
+**Para ver en algun momento**  => extension en DAX y Bookmarks en Power BI 
+
+Bookmarks knowledge extension on YT:
+https://www.youtube.com/watch?v=oartVv7T9-8
+
+Playlist para ver en algun momento:
+https://www.youtube.com/playlist?list=PLXR1MU_rf6FLumpTjiArxZ_Z3kCCEYSNH
