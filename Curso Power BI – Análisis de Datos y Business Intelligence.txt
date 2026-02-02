@@ -439,4 +439,11 @@ Filtros en segmentadores => Para que no muestren registros sin datos (desde el p
 Filtros dinamicos en el titulo:
 
 Titulo Filtros = 
-SELECTEDVALUE(DimProduct[ProductCategory],"Multiple") //Segundo parametro es un resultado alternativo
+var FiltroAnio = SELECTEDVALUE(DimCalendar[Año],"Multiple") //Segundo parametro es un resultado alternativo
+var FiltroProd = SELECTEDVALUE(DimProduct[ProductCategory],"Multiple") //Segundo parametro es un resultado alternativo
+var FiltroCont = SELECTEDVALUE(DimStores[ContinentName],"Multiple") //Segundo parametro es un resultado alternativo
+
+RETURN 
+"Comparativa de Total Ingresos vs Año Anterior segmentado por:
+- Año: " & FiltroAnio &
+" - Producto: " & FiltroProd & "- Continente: " & FiltroCont
