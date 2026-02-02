@@ -456,3 +456,4 @@ VAR indicador = IF([Total Ingresos Variacion LY] < 0 , "❌", "✅")
 RETURN 
 
 "Total Ingresos : " & FORMAT([Total Ingresos Netos], "$0,0") & indicador 
+
