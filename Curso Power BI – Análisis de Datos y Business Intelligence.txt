@@ -484,6 +484,12 @@ SUMX(FactSales,
 Forma mas sencilla de llegar a lo mismo :
 Sim Total Costos = 
 [Total Costos] * ('Parámetro Costos'[Valor de Parámetro Costos] + 1 )
+
+Sim Total Beneficios = 
+[Simulacion Total Ingresos] - [Sim Total Costos]
+
+Sim % Margen = 
+[Sim Total Beneficios] / [Simulacion Total Ingresos]
 -----------------------------------------------0------------------------------------------------------
 
 **Para ver en algun momento**  => extension de conocimiento en DAX y Bookmarks en Power BI 
