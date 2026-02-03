@@ -490,6 +490,8 @@ Sim Total Beneficios =
 
 Sim % Margen = 
 [Sim Total Beneficios] / [Simulacion Total Ingresos]
+
+Until 125 
 -----------------------------------------------0------------------------------------------------------
 
 **Para ver en algun momento**  => extension de conocimiento en DAX y Bookmarks en Power BI 
