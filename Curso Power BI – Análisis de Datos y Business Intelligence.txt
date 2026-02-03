@@ -458,7 +458,10 @@ RETURN
 "Total Ingresos : " & FORMAT([Total Ingresos Netos], "$0,0") & indicador 
 
 Parametros: 
-Until 124 for now 
+
+Para crear escenarios ante != situaciones que puedan pasar (What if)
+
+
 
 
 -----------------------------------------------0------------------------------------------------------
