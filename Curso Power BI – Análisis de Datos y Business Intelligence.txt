@@ -461,6 +461,29 @@ Parametros:
 
 Para crear escenarios ante != situaciones que puedan pasar (What if)
 
+Parametros: 
+Ejemplo => Que pasaria si los ingresos (o los costos) aumentan un % porciento 
+
+Genera una fx DAX 
+Parámetro UnitPrice = GENERATESERIES(0, 0.5, 0.01)
+
+Se puede cambiar desde la fx dax el inicio, el limite y el salto , ademas de ponerle otro formato de datos 
+
+Me crea un campo (el otro que el que usa el segmentador) en la nueva tabla, que es el que podriamos utilizar en una medida para hacer simulaciones 
+
+Ejemplo medida 👍
+
+Simulacion Total Ingresos = 
+SUMX(FactSales,
+    (FactSales[SalesQuantity] - FactSales[ReturnQuantity]) * 
+    FactSales[Dcto Mayoreo] * 
+    RELATED(DimProduct[UnitPrice]) * (1 + 'Parámetro UnitPrice'[Valor de Parámetro UnitPrice]) * 
+    ( 1 - RELATED(DimPromotion[DiscountPercent]) ) 
+)
+
+Forma mas sencilla de llegar a lo mismo :
+Sim Total Costos = 
+[Total Costos] * ('Parámetro Costos'[Valor de Parámetro Costos] + 1 )
 -----------------------------------------------0------------------------------------------------------
 
 **Para ver en algun momento**  => extension de conocimiento en DAX y Bookmarks en Power BI 
