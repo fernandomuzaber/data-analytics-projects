@@ -461,9 +461,6 @@ Parametros:
 
 Para crear escenarios ante != situaciones que puedan pasar (What if)
 
-
-
-
 -----------------------------------------------0------------------------------------------------------
 
 **Para ver en algun momento**  => extension de conocimiento en DAX y Bookmarks en Power BI 
