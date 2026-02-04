@@ -518,6 +518,9 @@ Parámetro Medidas = {
 
 Con esto, agrego las medidas que quiera y las utilizo para ir creando visualizaciones dinamicas 
 
+Se puede crear un parametro con las fechas para decidir como ver la data 
+
+
 
 -----------------------------------------------0------------------------------------------------------
 
@@ -527,3 +530,8 @@ Con esto, agrego las medidas que quiera y las utilizo para ir creando visualizac
     https://www.youtube.com/playlist?list=PLXR1MU_rf6FLumpTjiArxZ_Z3kCCEYSNH
 
 Llegue hasta 1X02 
+
+
+Bonus - Formato condicional cambiando medidas:
+
+https://www.youtube.com/watch?v=vWsEXytMdmY
