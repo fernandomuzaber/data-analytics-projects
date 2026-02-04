@@ -462,6 +462,8 @@ Parametros:
 Para crear escenarios ante != situaciones que puedan pasar (What if)
 
 Parametros: 
+
+Modelado => Parametro nuevo => Intervalo numerico
 Ejemplo => Que pasaria si los ingresos (o los costos) aumentan un % porciento 
 
 Genera una fx DAX 
@@ -491,7 +493,32 @@ Sim Total Beneficios =
 Sim % Margen = 
 [Sim Total Beneficios] / [Simulacion Total Ingresos]
 
-Until 125 
+Modelado => Parametro nuevo => Campo
+
+Se pueden seleccionar diferentes categorias de diferentes dimensiones, o diferentes jerarquias
+
+Crea expresion DAX :
+Parámetro Categoria = {
+    ("ChannelName", NAMEOF('DimChannel'[ChannelName]), 0),
+    ("ContinentName", NAMEOF('DimStores'[ContinentName]), 1),
+    ("ProductCategory", NAMEOF('DimProduct'[ProductCategory]), 2)
+}
+
+Con esto se crea un segmentador en cualquier visualizacion para que seleccionemos la segmentacion que queremos ver
+
+Otro uso:
+Parámetro Medidas = {
+    ("Total Ingresos Netos", NAMEOF('Medidas'[Total Ingresos Netos]), 0),
+    ("Total Costos", NAMEOF('Medidas'[Total Costos]), 1),
+    ("Total Beneficios", NAMEOF('Medidas'[Total Beneficios]), 2),
+    ("% Margen", NAMEOF('Medidas'[% Margen]), 3),
+    ("Total Ordenes", NAMEOF('Medidas'[Total Ordenes]), 4),
+    ("Cantidad Real", NAMEOF('Medidas'[Cantidad Real]), 5)
+}
+
+Con esto, agrego las medidas que quiera y las utilizo para ir creando visualizaciones dinamicas 
+
+
 -----------------------------------------------0------------------------------------------------------
 
 **Para ver en algun momento**  => extension de conocimiento en DAX y Bookmarks en Power BI 
