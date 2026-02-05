@@ -532,6 +532,8 @@ Beneficios
     Evita columnas sin orden
     Evita un bajo desempeño
 
+    
+
 -----------------------------------------------0------------------------------------------------------
 
 **Para ver en algun momento**  => extension de conocimiento en DAX y Bookmarks en Power BI 
