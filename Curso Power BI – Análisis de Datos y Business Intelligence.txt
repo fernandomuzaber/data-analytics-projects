@@ -521,7 +521,19 @@ Con esto, agrego las medidas que quiera y las utilizo para ir creando visualizac
 Se puede crear un parametro con las fechas para decidir como ver la data 
 
 
-Until 127 for now
+Tabla Calendario con DAX y M 
+
+Beneficios
+    Time Intelligence
+    Adición de columnas
+    Mostrar datos sin registros
+    Consistencia visual
+    Evita errores en funciones de Time Intelligence
+    Evita columnas sin orden
+    Evita un bajo desempeño
+
+    
+
 -----------------------------------------------0------------------------------------------------------
 
 **Para ver en algun momento**  => extension de conocimiento en DAX y Bookmarks en Power BI 
