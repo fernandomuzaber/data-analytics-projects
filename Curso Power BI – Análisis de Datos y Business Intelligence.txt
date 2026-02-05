@@ -549,6 +549,17 @@ Los primeros dos pasos toman la mayor cantidad de tiempo en el proceso, se puede
 4) Definir la relacion con las fact (la tabla calendario es dim, en un modelo estrella se relaciona con cada fact por el campo fecha correspondiente, usando el campo de tipo date y en los slicers/visualizaciones tomarlos desde la calendar table para que surjan los efectos deseados)
 
 5) Ajustes a columnas (orden , etcetera, ) y poner que los campos numericos no se sumarizen
+ 
+Para crear tabla en DAX (Power BI) :
+
+Desde pestaña de modeling o en la vista de tabla (Table tools) => New table 
+
+
+CALENDARAUTO() => Esta funcion lo que hace es de todo el modelo, los campos date toma el año minimo y el maximo y crea un listado con valores unicos. Arranca de Enero por mas que los datos empiecen otro mes posterior, toma solo el año. 
+
+Importante marcar como tipo date el data type (lo pone como datetime automaticamente)
+
+Cuando cargo una fuente de datos posterior, con algun campo de fecha date , automaticamente el CALENDARAUTO() se recalcula a minyear & maxyear
 
 -----------------------------------------------0------------------------------------------------------
 
