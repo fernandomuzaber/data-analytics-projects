@@ -561,6 +561,9 @@ Importante marcar como tipo date el data type (lo pone como datetime automaticam
 
 Cuando cargo una fuente de datos posterior, con algun campo de fecha date , automaticamente el CALENDARAUTO() se recalcula a minyear & maxyear
 
+Until 128 for now
+
+
 -----------------------------------------------0------------------------------------------------------
 
 **Para ver en algun momento**  => extension de conocimiento en DAX y Bookmarks en Power BI 
