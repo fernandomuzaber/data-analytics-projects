@@ -578,6 +578,45 @@ Agrego columnas para la jerarquia segun necesidad, mediante transformacion de da
 Año = 
 YEAR('Dim_Calendar DAX'[Date])
 
+Es mas eficiente crear la tabla calendario en M (Power Query) 
+
+Codigo reutilizable para la generacion de la dim calendar table en DAX:
+1) Creo una nueva tabla con este codigo
+Dim_Calendar DAX = 
+ADDCOLUMNS (                //Agrega columnas con clave, valor
+    CALENDAR 
+        ( DATE
+            ( YEAR
+                ( MIN ( Fact_Tickets[Fecha])), 01, 01),             //Se cambia por mi campo type date 
+        DATE
+            ( YEAR
+                ( MAX( Fact_Tickets[Fecha]) ), 12, 31 ) ),          //Se cambia por mi campo type date
+    "FechaSK", FORMAT ( [Date], "YYYYMMDD" ),
+    "#Año", YEAR ( [Date] ),
+    "#Trimestre", QUARTER ( [Date] ),
+    "#Mes", MONTH ( [Date] ),
+    "#Día", DAY ( [Date] ),
+    "Trimestre", "T" & FORMAT ( [Date], "Q" ), 
+    "Mes", FORMAT ( [Date], "MMMM" ),
+    "MesCorto", FORMAT ( [Date], "MMM" ),
+    "#DíaSemana", WEEKDAY ( [Date],2 ),
+    "#SemanaAño", WEEKNUM ( [Date],2 ),
+    "CierreSemana", ( [Date] + 7 - WEEKDAY( [Date],2 ) ),
+    "Día", FORMAT ( [Date], "DDDD" ),
+    "DíaCorto", FORMAT ( [Date], "DDD" ),
+    "AñoTrimestre", FORMAT ( [Date], "YYYY" ) & "/T" & FORMAT ( [Date], "Q" ),
+    "Año#Mes", FORMAT ( [Date], "YYYY/MM" ),
+    "AñoMesCorto", FORMAT ( [Date], "YYYY/mmm" ),
+    "InicioMes", EOMONTH( [Date], -1) + 1,
+    "FinMes", EOMONTH( [Date], 0) 
+)
+
+
+Los campos # Ayudan a ordenar las columnas
+2) Cambio el tipo de dato de las columnas  Date y CierreSemana por date only
+
+3) Marco la tabla desde table tools, opciones del calendario => Marcar como calendar table para decirle a power bi que es una tabla calendario
+
 
 Until 128 for now
 
