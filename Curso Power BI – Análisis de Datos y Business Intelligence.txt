@@ -617,6 +617,12 @@ Los campos # Ayudan a ordenar las columnas
 
 3) Marco la tabla desde table tools, opciones del calendario => Marcar como calendar table para decirle a power bi que es una tabla calendario
 
+4) Relacionar en el modelo(esquema) la tabla creada 
+
+5) Ajustes a columnas (orden , etcetera, ) y poner que los campos numericos no se sumarizen
+
+La tabla se pone en el idioma que tenga configurado en la configuracion regional de power bi 
+
 
 
 Sumar 2P de work y 1 P de ingles 
