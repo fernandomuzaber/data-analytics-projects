@@ -618,7 +618,6 @@ Los campos # Ayudan a ordenar las columnas
 3) Marco la tabla desde table tools, opciones del calendario => Marcar como calendar table para decirle a power bi que es una tabla calendario
 
 
-Until 128 for now
 
 Sumar 2P de work y 1 P de ingles 
 
