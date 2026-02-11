@@ -623,11 +623,11 @@ Los campos # Ayudan a ordenar las columnas
 
 La tabla se pone en el idioma que tenga configurado en la configuracion regional de power bi 
 
+ 1P de ingles & 1 P de training 
 
 
-Sumar 2P de work y 1 P de ingles 
+-----------------------------------------------------------0-----------------------------------------------------------
 
------------------------------------------------0------------------------------------------------------
 
 **Para ver en algun momento**  => extension de conocimiento en DAX y Bookmarks en Power BI 
 
