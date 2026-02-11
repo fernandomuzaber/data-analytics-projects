@@ -556,13 +556,32 @@ Desde pestaña de modeling o en la vista de tabla (Table tools) => New table
 
 
 CALENDARAUTO() => Esta funcion lo que hace es de todo el modelo, los campos date toma el año minimo y el maximo y crea un listado con valores unicos. Arranca de Enero por mas que los datos empiecen otro mes posterior, toma solo el año. 
-
+    Para analisis rapido
 Importante marcar como tipo date el data type (lo pone como datetime automaticamente)
 
 Cuando cargo una fuente de datos posterior, con algun campo de fecha date , automaticamente el CALENDARAUTO() se recalcula a minyear & maxyear
 
+CALENDAR()
+    Otra funcion, mas personificable, toma una tabla fact de type date , y se le puede poner con date mes / dia de inicio y fin 
+
+Dim_Calendar DAX = 
+    CALENDAR(
+        DATE(
+            YEAR(
+                MIN(Fact_Tickets[Fecha])),01,01),
+        DATE(
+            YEAR(
+                MAX(Fact_Tickets[Fecha])),12,31)
+    )
+
+Agrego columnas para la jerarquia segun necesidad, mediante transformacion de datos desde dax:
+Año = 
+YEAR('Dim_Calendar DAX'[Date])
+
+
 Until 128 for now
 
+Sumar 2P de work y 1 P de ingles 
 
 -----------------------------------------------0------------------------------------------------------
 
