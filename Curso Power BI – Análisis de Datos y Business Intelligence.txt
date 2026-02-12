@@ -623,7 +623,13 @@ Los campos # Ayudan a ordenar las columnas
 
 La tabla se pone en el idioma que tenga configurado en la configuracion regional de power bi 
 
-Until 128 26' 43''
+Con tabla calendario, fechas unicas, puedo modificar la medida para que muestre tambien los dias que no hubo datos:
+Tengo que con el click derecho en la parte de datos de fecha de la visualizacion, seleccionar mostrar valores sin datos y modificar la medida de esta manera:
+
+Total Tickets = 
+IF(ISBLANK(COUNTROWS(Fact_Tickets) ),0,COUNTROWS(Fact_Tickets))
+
+Until 129
 
 -----------------------------------------------------------0-----------------------------------------------------------
 
