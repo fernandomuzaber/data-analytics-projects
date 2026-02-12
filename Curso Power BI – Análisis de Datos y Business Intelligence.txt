@@ -629,7 +629,8 @@ Tengo que con el click derecho en la parte de datos de fecha de la visualizacion
 Total Tickets = 
 IF(ISBLANK(COUNTROWS(Fact_Tickets) ),0,COUNTROWS(Fact_Tickets))
 
-Until 129
+
+
 
 -----------------------------------------------------------0-----------------------------------------------------------
 
