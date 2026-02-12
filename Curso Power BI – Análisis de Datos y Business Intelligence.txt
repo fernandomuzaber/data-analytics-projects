@@ -623,8 +623,7 @@ Los campos # Ayudan a ordenar las columnas
 
 La tabla se pone en el idioma que tenga configurado en la configuracion regional de power bi 
 
- 1P de ingles & 1 P de training 
-
+Until 128 26' 43''
 
 -----------------------------------------------------------0-----------------------------------------------------------
 
