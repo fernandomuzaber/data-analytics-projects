@@ -18,7 +18,7 @@
   
   <br>
   
-  <p style="font-family: Segoe UI Semibol; font-size: 14px; color: #888;">
+  <p style="font-family: Segoe UI Semibold; font-size: 14px; color: #888;">
     <b>Core Stack:</b> Power BI • DAX • Excel • SQL • ETL Processes
   </p>
 
