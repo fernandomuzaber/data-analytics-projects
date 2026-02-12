@@ -630,6 +630,13 @@ Total Tickets =
 IF(ISBLANK(COUNTROWS(Fact_Tickets) ),0,COUNTROWS(Fact_Tickets))
 
 
+Calendar Table (M):
+
+Pasos (Desde Power Query):
+
+1) New blank query
+
+2)
 -----------------------------------------------------------0-----------------------------------------------------------
 
 
