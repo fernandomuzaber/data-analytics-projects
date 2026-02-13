@@ -1,0 +1,11 @@
+https://learn.microsoft.com/es-es/power-bi/consumer/end-user-license
+
+https://learn.microsoft.com/es-es/power-bi/fundamentals/service-features-license-type
+
+https://learn.microsoft.com/es-es/power-bi/enterprise/service-admin-purchasing-power-bi-pro
+
+https://learn.microsoft.com/es-es/power-bi/enterprise/service-premium-what-is
+
+https://learn.microsoft.com/es-es/power-bi/enterprise/service-premium-faq
+
+https://learn.microsoft.com/es-es/power-bi/enterprise/service-premium-per-user-faq
