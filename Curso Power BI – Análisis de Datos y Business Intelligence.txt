@@ -723,7 +723,16 @@ proyecto publicado:
 https://app.powerbi.com/view?r=eyJrIjoiZTJjZmFmNGYtZmEwOC00YjQ3LThlZTYtMzhhZjhlZDk4YTBmIiwidCI6IjRjODE4Zjc5LWFiODQtNDU1Mi05YjdjLTJmZTcxNWIwZDBkNSIsImMiOjR9
 
 
-Until 131 
+Power BI Service & Mobile:
+
+!= Productos :
+
+PBI Desktop => Dev 
+PBI Service => Para compartir con otros usuarios o subir a la web
+PBI Mobile => Visualization
+
+Tipos de licencia: 
+
 
 
 -----------------------------------------------------------0-----------------------------------------------------------
