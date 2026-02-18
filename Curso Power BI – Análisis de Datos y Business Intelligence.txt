@@ -762,7 +762,6 @@ Pro:
 -Actualizaciones de datos automaticas calendarizadas
 
 
-
 Premium:
 
 -Modelo de datos <= 100 GB
@@ -771,6 +770,16 @@ Premium:
 -Datamarts, y gobierno de datos(compartir con todo tipo de usuarios)
     Los datamarts permiten crear y usar todas las funcionalidades de power bi desde la web/nube (mac, mobile o donde fuera se accede a Power Query)
 
+
+Publicacion de PBIX en Power BI Service:
+
+Al publicar desde local => archivo .pbix 
+    Se genera:
+        Conjunto de datos (dataset)
+        Informe
+
+Un conjunto de datos permite hacer multiples visualizaciones
+Es importante no compartir con usuarios el archivo .pbix (por la informacion confidencial que pueda llegar a tener)
 
 
 -----------------------------------------------------------0-----------------------------------------------------------
