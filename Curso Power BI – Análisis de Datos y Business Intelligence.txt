@@ -770,6 +770,19 @@ Premium:
 -Datamarts, y gobierno de datos(compartir con todo tipo de usuarios)
     Los datamarts permiten crear y usar todas las funcionalidades de power bi desde la web/nube (mac, mobile o donde fuera se accede a Power Query)
 
+Links para profundizar:
+
+https://learn.microsoft.com/es-es/power-bi/consumer/end-user-license
+
+https://learn.microsoft.com/es-es/power-bi/fundamentals/service-features-license-type
+
+https://learn.microsoft.com/es-es/power-bi/enterprise/service-admin-purchasing-power-bi-pro
+
+https://learn.microsoft.com/es-es/power-bi/enterprise/service-premium-what-is
+
+https://learn.microsoft.com/es-es/power-bi/enterprise/service-premium-faq
+
+https://learn.microsoft.com/es-es/power-bi/enterprise/service-premium-per-user-faq
 
 Publicacion de PBIX en Power BI Service:
 
@@ -780,8 +793,10 @@ Al publicar desde local => archivo .pbix
 
 Un conjunto de datos permite hacer multiples visualizaciones
 Es importante no compartir con usuarios el archivo .pbix (por la informacion confidencial que pueda llegar a tener)
+Para actualizar el pbix hay que reemplazar el reporte. Si solo actualizamos la fuente de datos se actualiza el gateway (no es necesario volver a publicar)
 
 
+Until 133 (7' 30'')
 -----------------------------------------------------------0-----------------------------------------------------------
 
 
