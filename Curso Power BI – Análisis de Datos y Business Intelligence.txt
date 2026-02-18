@@ -748,18 +748,28 @@ Pro(Colaboracion):
 Escenarios y recomendaciones para utilizar cuentas:
 
 Free:
+
 -Visualizar reportes personales sin compartilos con otros
 -Publicar en web si no hay problema con confidencialidad de datos
 -Almacenar reportes en la nube y verlos en cualquier dispositivo
 
 Pro:
+
+-Modelo de datos <= 1GB
+-Permite almacenar hasta 10 gb por espacio de trabajo
 -Compartir reportes, dashboards o Apps con otros usuarios
 -Colaborar, dataflows, notificaciones, etc para toma de decisiones
 -Actualizaciones de datos automaticas calendarizadas
 
+
+
 Premium:
+
+-Modelo de datos <= 100 GB
+-Capacidad de almacenamiento ilimitada
 -Capacidades de almacenamiento mayores y mejor desempeño
 -Datamarts, y gobierno de datos(compartir con todo tipo de usuarios)
+    Los datamarts permiten crear y usar todas las funcionalidades de power bi desde la web/nube (mac, mobile o donde fuera se accede a Power Query)
 
 
 
