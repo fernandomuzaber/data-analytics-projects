@@ -727,13 +727,41 @@ Power BI Service & Mobile:
 
 != Productos :
 
-PBI Desktop => Dev 
-PBI Service => Para compartir con otros usuarios o subir a la web
+PBI Desktop => Dev (Crea reportes)
+PBI Service => Para compartir con otros usuarios o subir a la web (visualizarlos)
 PBI Mobile => Visualization
 
 Tipos de licencia: 
 
-Until 132
+Free:
+    Licencia personal, no permite colaborar
+    Permite crear reportes y publicarlos en el servicio (My Workspace) => Permite crear de cualquier visualizacion que tengamos paneles / dashboard de una sola pagina
+    Nos permite crear un data gateway (para programar actualizacion a nuestros datos)
+    Nos deja tener visualizacion (desktop/mobile) a nuestros reportes
+
+Pro(Colaboracion):
+    Mismas funciones que Free
+    Multiples workspaces (10 usd por usuario por mes), se pueden compartir acceso
+    Desde la vista mobile, se puede crear apps
+
+
+Escenarios y recomendaciones para utilizar cuentas:
+
+Free:
+-Visualizar reportes personales sin compartilos con otros
+-Publicar en web si no hay problema con confidencialidad de datos
+-Almacenar reportes en la nube y verlos en cualquier dispositivo
+
+Pro:
+-Compartir reportes, dashboards o Apps con otros usuarios
+-Colaborar, dataflows, notificaciones, etc para toma de decisiones
+-Actualizaciones de datos automaticas calendarizadas
+
+Premium:
+-Capacidades de almacenamiento mayores y mejor desempeño
+-Datamarts, y gobierno de datos(compartir con todo tipo de usuarios)
+
+
 
 -----------------------------------------------------------0-----------------------------------------------------------
 
