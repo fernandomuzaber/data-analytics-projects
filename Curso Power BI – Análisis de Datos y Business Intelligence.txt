@@ -796,7 +796,17 @@ Es importante no compartir con usuarios el archivo .pbix (por la informacion con
 Para actualizar el pbix hay que reemplazar el reporte. Si solo actualizamos la fuente de datos se actualiza el gateway (no es necesario volver a publicar)
 
 
-Until 133 (7' 30'')
+Reporte Merx:
+Aprende a hacer reporte Merx: 
+https://www.datdata.com/introduccion
+
+
+Aprende a crear modelo estrella Merx: 
+https://youtu.be/RLIORzfMlOU
+
+
+Reportes de ejemplo publicados: 
+https://www.datdata.com/ejemplos
 -----------------------------------------------------------0-----------------------------------------------------------
 
 
@@ -809,3 +819,12 @@ Llegue hasta 1X02 (10')
 
 Bonus - Formato condicional cambiando medidas:
 https://www.youtube.com/watch?v=vWsEXytMdmY
+
+
+Categoría	Conjunto	Puntaje (Inaugural)	Status / Insight Técnico
+Murga	Patos Cabreros	189	[TOP TIER] Máximo puntaje en batería. Alta fidelidad en arreglos corales.
+Murga	Doña Bastarda	175	[BACK-TO-BACK] Defendiendo el título. Guion con alto impacto sistémico (crítica social).
+Parodistas	Zíngaros	190	[HIGH ENGAGEMENT] >35K vistas en 5min de presentación. Estética visual "over-the-top".
+Parodistas	Momosapiens	184	[USER EXPERIENCE] La parodia de Trump/Maduro es el contenido más viral en foros.
+Humoristas	Los Rolin	185	[OPTIMIZED] Mejor rendimiento humor/tiempo. El personaje "Alien con Virgilio" es tendencia.
+Humoristas	Los Choby’s	189	[LEGACY BUG] Ganaron el desfile, pero la crítica reporta "fugas" de ritmo en la primera rueda.
