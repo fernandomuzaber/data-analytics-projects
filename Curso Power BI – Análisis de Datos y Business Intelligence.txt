@@ -772,33 +772,41 @@ Premium:
 
 
 
-Publicacion de PBIX en Power BI Service:
+Publicacion de PBIX en Power BI Service & PBI Service & Workspace features:
 
-Al publicar desde local => archivo .pbix 
-    Se genera:
-        Conjunto de datos (dataset)
-        Informe
+    Al publicar desde local => archivo .pbix 
+        Se genera:
+            Conjunto de datos (dataset)
+            Informe
 
-Un conjunto de datos permite hacer multiples visualizaciones.
-Es importante no compartir con usuarios el archivo .pbix (por la informacion confidencial que pueda llegar a tener).
-Para actualizar el pbix hay que reemplazar el reporte. Si solo actualizamos la fuente de datos se actualiza el gateway (no es necesario volver a publicar).
+    Un conjunto de datos permite hacer multiples visualizaciones.
+    Es importante no compartir con usuarios el archivo .pbix (por la informacion confidencial que pueda llegar a tener).
+    Para actualizar el pbix hay que reemplazar el reporte. Si solo actualizamos la fuente de datos se actualiza el gateway (no es necesario volver a publicar).
 
-Cuando publico el informe en la web, se puede poner una imagen de marcador de posicion , que sale antes de cargar el informe y el usuario debe dar click en ella para que se abra este. Sirve para no hacer lenta la carga del sitio web con el informe.
-Desde el engranaje del service de pbi, se pueden administrar los codigos para insertar, para cambiar o remover las url compartidas en la web.
+    Cuando publico el informe en la web, se puede poner una imagen de marcador de posicion , que sale antes de cargar el informe y el usuario debe dar click en ella para que se abra este. Sirve para no hacer lenta la carga del sitio web con el informe.
+    Desde el engranaje del service de pbi, se pueden administrar los codigos para insertar, para cambiar o remover las url compartidas en la web.
 
-Desde el service, se puede compartir el area de trabajo agregando colaboradores segun permiso deseado, desde admin (crud total, hasta visor (only read)).
-A su vez, se puede compartir tanto el informe, como el dataset (desde este ultimo se pueden crear nuevos informes también).
+    Desde el service, se puede compartir el area de trabajo agregando colaboradores segun permiso deseado, desde admin (crud total, hasta visor (only read)).
+    A su vez, se puede compartir tanto el informe, como el dataset (desde este ultimo se pueden crear nuevos informes también).
 
-Los marcadores que figuran en el reporte desde el panel superior se aplican solo para ese usuario, y permiten guardar un contexto del reporte para volver a el. Util para el usuario y para reuniones. 
+    Los marcadores que figuran en el reporte desde el panel superior se aplican solo para ese usuario, y permiten guardar un contexto del reporte para volver a el. Util para el usuario y para reuniones. 
 Desde el panel de mostrar mas marcadores se modifica para todos (no recomendado para el usuario ). => Deberian estar ocultos
 
 Paneles (Dashboards) desde Power BI Service:
 
-Sirven para tomar visualizaciones de != reportes y consolidarlo en la misma pagina (util para finanzas, KPI globales).
+    Sirven para tomar visualizaciones de != reportes y consolidarlo en la misma pagina (util para finanzas, KPI globales).
+    Se pueden crear desde el workspace => nuevo(new) => panel (dashboard)
+    O desde cualquier reporte , dentro de alguna visualizacion desde anclar 
+
+    Para sumar visualizaciones al panel(dashboard), tengo que irme a cada reporte y poner en la visualizacion deseada anclar y selecciono el panel creado(se suman con los filtros creados dentro de esa visualizacion si los tienen, es util agregarle el titulo dentro del panel para contextualizar y que no se malinterprete la info). Una vez sumadas, dentro del panel puedo editar la UI, formas y tamaños , también tema del panel.
+    
+    Se pueden anclar reportes enteros a un panel (desde el reporte voy en la cinta de opciones superior a anclar a un panel)
+
+    Panel creado:
+    https://app.powerbi.com/groups/ad620fb6-86f6-4448-b183-12b784d84330/dashboards/b8b54ea5-442e-4d0f-8076-1443dc7cdc78?experience=power-bi
 
 
-
-
+Until 137
 -----------------------------------------------------------0-----------------------------------------------------------
 
 
