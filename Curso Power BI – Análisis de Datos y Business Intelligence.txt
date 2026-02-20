@@ -796,8 +796,7 @@ Paneles (Dashboards) desde Power BI Service:
 
 Sirven para tomar visualizaciones de != reportes y consolidarlo en la misma pagina (util para finanzas, KPI globales).
 
-
-
+Until 136
 
 -----------------------------------------------------------0-----------------------------------------------------------
 
