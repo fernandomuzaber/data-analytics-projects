@@ -770,19 +770,7 @@ Premium:
 -Datamarts, y gobierno de datos(compartir con todo tipo de usuarios)
     Los datamarts permiten crear y usar todas las funcionalidades de power bi desde la web/nube (mac, mobile o donde fuera se accede a Power Query)
 
-Links para profundizar:
 
-https://learn.microsoft.com/es-es/power-bi/consumer/end-user-license
-
-https://learn.microsoft.com/es-es/power-bi/fundamentals/service-features-license-type
-
-https://learn.microsoft.com/es-es/power-bi/enterprise/service-admin-purchasing-power-bi-pro
-
-https://learn.microsoft.com/es-es/power-bi/enterprise/service-premium-what-is
-
-https://learn.microsoft.com/es-es/power-bi/enterprise/service-premium-faq
-
-https://learn.microsoft.com/es-es/power-bi/enterprise/service-premium-per-user-faq
 
 Publicacion de PBIX en Power BI Service:
 
@@ -795,18 +783,9 @@ Un conjunto de datos permite hacer multiples visualizaciones
 Es importante no compartir con usuarios el archivo .pbix (por la informacion confidencial que pueda llegar a tener)
 Para actualizar el pbix hay que reemplazar el reporte. Si solo actualizamos la fuente de datos se actualiza el gateway (no es necesario volver a publicar)
 
+Cuando publico el informe en la web, se puede poner una imagen de marcador de posicion , que sale antes de cargar el informe y el usuario debe dar click en ella para que se abra este. Sirve para no hacer lenta la carga del sitio web con el informe.
+Desde el engranaje del service de pbi, se pueden administrar los codigos para insertar, para cambiar o remover las url compartidas en la web.
 
-Reporte Merx:
-Aprende a hacer reporte Merx: 
-https://www.datdata.com/introduccion
-
-
-Aprende a crear modelo estrella Merx: 
-https://youtu.be/RLIORzfMlOU
-
-
-Reportes de ejemplo publicados: 
-https://www.datdata.com/ejemplos
 -----------------------------------------------------------0-----------------------------------------------------------
 
 
@@ -820,6 +799,31 @@ Llegue hasta 1X02 (10')
 Bonus - Formato condicional cambiando medidas:
 https://www.youtube.com/watch?v=vWsEXytMdmY
 
+Reporte Merx:
+Aprende a hacer reporte Merx: 
+https://www.datdata.com/introduccion
+
+
+Aprende a crear modelo estrella Merx: 
+https://youtu.be/RLIORzfMlOU
+
+
+Reportes de ejemplo publicados: 
+https://www.datdata.com/ejemplos
+
+Links para profundizar:
+
+https://learn.microsoft.com/es-es/power-bi/consumer/end-user-license
+
+https://learn.microsoft.com/es-es/power-bi/fundamentals/service-features-license-type
+
+https://learn.microsoft.com/es-es/power-bi/enterprise/service-admin-purchasing-power-bi-pro
+
+https://learn.microsoft.com/es-es/power-bi/enterprise/service-premium-what-is
+
+https://learn.microsoft.com/es-es/power-bi/enterprise/service-premium-faq
+
+https://learn.microsoft.com/es-es/power-bi/enterprise/service-premium-per-user-faq
 
 Categoría	Conjunto	Puntaje (Inaugural)	Status / Insight Técnico
 Murga	Patos Cabreros	189	[TOP TIER] Máximo puntaje en batería. Alta fidelidad en arreglos corales.
