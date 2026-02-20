@@ -802,7 +802,7 @@ Paneles (Dashboards) desde Power BI Service:
     
     Se pueden anclar reportes enteros a un panel (desde el reporte voy en la cinta de opciones superior a anclar a un panel)
 
-
+Until 137
 -----------------------------------------------------------0-----------------------------------------------------------
 
 
