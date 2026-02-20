@@ -790,7 +790,14 @@ Desde el service, se puede compartir el area de trabajo agregando colaboradores 
 A su vez, se puede compartir tanto el informe, como el dataset (desde este ultimo se pueden crear nuevos informes también).
 
 Los marcadores que figuran en el reporte desde el panel superior se aplican solo para ese usuario, y permiten guardar un contexto del reporte para volver a el. Util para el usuario y para reuniones. 
-Desde el panel de filtros se modifica para todos (no recomendado para el usuario ).
+Desde el panel de mostrar mas marcadores se modifica para todos (no recomendado para el usuario ). => Deberian estar ocultos
+
+Paneles (Dashboards) desde Power BI Service:
+
+Sirven para tomar visualizaciones de != reportes y consolidarlo en la misma pagina (util para finanzas, KPI globales).
+
+
+
 
 -----------------------------------------------------------0-----------------------------------------------------------
 
