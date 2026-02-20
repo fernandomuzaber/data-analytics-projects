@@ -1,0 +1,2 @@
+Áreas de trabajo, roles
+https://learn.microsoft.com/es-es/power-bi/collaborate-share/service-roles-new-workspaces
