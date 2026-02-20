@@ -799,6 +799,8 @@ Paneles (Dashboards) desde Power BI Service:
     O desde cualquier reporte , dentro de alguna visualizacion desde anclar 
 
     Para sumar visualizaciones al panel(dashboard), tengo que irme a cada reporte y poner en la visualizacion deseada anclar y selecciono el panel creado(se suman con los filtros creados dentro de esa visualizacion si los tienen, es util agregarle el titulo dentro del panel para contextualizar y que no se malinterprete la info). Una vez sumadas, dentro del panel puedo editar la UI, formas y tamaños , también tema del panel.
+    
+    Se pueden anclar reportes enteros a un panel (desde el reporte voy en la cinta de opciones superior a anclar a un panel)
 
 
 -----------------------------------------------------------0-----------------------------------------------------------
