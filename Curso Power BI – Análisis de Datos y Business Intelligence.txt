@@ -815,6 +815,24 @@ Aplicaciones en Power BI Service:
 
 Primera app publicada 
 https://app.powerbi.com/Redirect?action=OpenApp&appId=e2143ec8-544a-49f6-8a34-c8dcec7fe482&ctid=4c818f79-ab84-4552-9b7c-2fe715b0d0d5&experience=power-bi
+
+Suscripciones y vista mobile => 
+
+    Vista mobile, se puede crear desde service & desktop, desde 0 se incluye lo que yo quiera, usar elementos anchos es buena practica. Una vez guardado se accede desde celular, es buena practica habilitar opcion multiple porque el celular no tiene ctrl
+
+    Suscripciones => Se envia foto con la frecuencia que yo establezca al correo 
+
+Configurar alertas:
+
+    Aplica por visualización (funciona para tarjeta, medidor y kpi)
+    Se configuran con un intervalo numerico 
+
+RLS (Row level security ):
+
+    Se configura desde power bi desktop
+    Escenario => Filtrar por continente con RLS (Proyecto DAX)
+
+    
 -----------------------------------------------------------0-----------------------------------------------------------
 
 
