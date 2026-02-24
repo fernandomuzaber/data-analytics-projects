@@ -806,7 +806,12 @@ Paneles (Dashboards) desde Power BI Service:
     https://app.powerbi.com/groups/ad620fb6-86f6-4448-b183-12b784d84330/dashboards/b8b54ea5-442e-4d0f-8076-1443dc7cdc78?experience=power-bi
 
 
-Para mover informes entre areas de trabajo se crea una copia y se pone en la area de trabajo destino. Solo copia el informe, para el conjunto de datos habria que removerlo y volver a subirlo
+Para mover informes entre areas de trabajo se crea una copia y se pone en la area de trabajo destino. Solo copia el informe, para el conjunto de datos habria que removerlo y volver a subirlo.
+
+Aplicaciones en Power BI Service:
+
+    Desde el area de trabajo => Crear Aplicacion
+    Es mas intuitivo para el usuario final que compartir un reporte .pbix 
 -----------------------------------------------------------0-----------------------------------------------------------
 
 
