@@ -821,6 +821,8 @@ Suscripciones y vista mobile =>
 Vista mobile, se puede crear desde service & desktop, desde 0 se incluye lo que yo quiera, usar elementos anchos es buena practica. Una vez guardado se accede desde celular, es buena practica habilitar opcion multiple porque el celular no tiene ctrl
 
 Suscripciones => Se envia foto con la frecuencia que yo establezca al correo 
+
+
 -----------------------------------------------------------0-----------------------------------------------------------
 
 
