@@ -812,6 +812,9 @@ Aplicaciones en Power BI Service:
 
     Desde el area de trabajo => Crear Aplicacion
     Es mas intuitivo para el usuario final que compartir un reporte .pbix 
+
+Primera app publicada 
+https://app.powerbi.com/Redirect?action=OpenApp&appId=e2143ec8-544a-49f6-8a34-c8dcec7fe482&ctid=4c818f79-ab84-4552-9b7c-2fe715b0d0d5&experience=power-bi
 -----------------------------------------------------------0-----------------------------------------------------------
 
 
