@@ -832,7 +832,7 @@ RLS (Row level security ):
     Se configura desde power bi desktop
     Escenario => Filtrar por continente con RLS (Proyecto DAX)
 
-    
+    until 143
 -----------------------------------------------------------0-----------------------------------------------------------
 
 
