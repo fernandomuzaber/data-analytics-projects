@@ -832,7 +832,10 @@ RLS (Row level security ):
     Se configura desde power bi desktop
     Escenario => Filtrar por continente con RLS (Proyecto DAX)
 
-    until 143
+    Modelado => Administrar roles
+    Creo el filtro, hecho en proyecto dax.pbix 
+    Europe Manager => Fact sales [Continent Name] = "Europe" 
+
 -----------------------------------------------------------0-----------------------------------------------------------
 
 
