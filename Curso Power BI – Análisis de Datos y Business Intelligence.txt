@@ -836,6 +836,10 @@ RLS (Row level security ):
     Creo el filtro, hecho en proyecto dax.pbix 
     Europe Manager => Fact sales [Continent Name] = "Europe" 
 
+    Guardo, publico el reporte en el servicio. 
+    Desde el powerbi service:
+        Conjunto de datos => seguridad => me aparecen los roles para incluir a determinadas personas via su correo electronico 
+
 -----------------------------------------------------------0-----------------------------------------------------------
 
 
