@@ -836,6 +836,10 @@ RLS (Row level security ):
     Creo el filtro, hecho en proyecto dax.pbix 
     Europe Manager => Fact sales [Continent Name] = "Europe" 
 
+    Guardo, publico el reporte en el servicio. 
+    Desde el powerbi service:
+        Conjunto de datos => seguridad => me aparecen los roles para incluir a determinadas personas via su correo electronico 
+
 -----------------------------------------------------------0-----------------------------------------------------------
 
 
@@ -876,8 +880,6 @@ https://learn.microsoft.com/es-es/power-bi/enterprise/service-premium-faq
 https://learn.microsoft.com/es-es/power-bi/enterprise/service-premium-per-user-faq
 
 Categoría	Conjunto	Puntaje (Inaugural)	Status / Insight Técnico
-Murga	Patos Cabreros	189	[TOP TIER] Máximo puntaje en batería. Alta fidelidad en arreglos corales.
-Murga	Doña Bastarda	175	[BACK-TO-BACK] Defendiendo el título. Guion con alto impacto sistémico (crítica social).
 Parodistas	Zíngaros	190	[HIGH ENGAGEMENT] >35K vistas en 5min de presentación. Estética visual "over-the-top".
 Parodistas	Momosapiens	184	[USER EXPERIENCE] La parodia de Trump/Maduro es el contenido más viral en foros.
 Humoristas	Los Rolin	185	[OPTIMIZED] Mejor rendimiento humor/tiempo. El personaje "Alien con Virgilio" es tendencia.
