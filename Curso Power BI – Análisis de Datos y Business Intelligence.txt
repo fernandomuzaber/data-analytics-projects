@@ -840,6 +840,12 @@ RLS (Row level security ):
     Desde el powerbi service:
         Conjunto de datos => seguridad => me aparecen los roles para incluir a determinadas personas via su correo electronico 
 
+Data Gateway:
+
+    Desde power bi service, en descargas en la parte superior derecha, me bajo la puerta de enlace de datos (data gateway)
+    Tengo que poner el = mail que uso en el workspace y en power bi desktop (son =)
+    Desde el origen de datos o modelo semantico, voy a programar actualizacion:
+        Editar credenciales => 
 -----------------------------------------------------------0-----------------------------------------------------------
 
 
@@ -879,11 +885,3 @@ https://learn.microsoft.com/es-es/power-bi/enterprise/service-premium-faq
 
 https://learn.microsoft.com/es-es/power-bi/enterprise/service-premium-per-user-faq
 
-Categoría	Conjunto	Puntaje (Inaugural)	Status / Insight Técnico
-Parodistas	Zíngaros	190	[HIGH ENGAGEMENT] >35K vistas en 5min de presentación. Estética visual "over-the-top".
-Parodistas	Momosapiens	184	[USER EXPERIENCE] La parodia de Trump/Maduro es el contenido más viral en foros.
-Humoristas	Los Rolin	185	[OPTIMIZED] Mejor rendimiento humor/tiempo. El personaje "Alien con Virgilio" es tendencia.
-Humoristas	Los Choby’s	189	[LEGACY BUG] Ganaron el desfile, pero la crítica reporta "fugas" de ritmo en la primera rueda.
-Retomar series y pelis *de it , simpsons , friends , etc *csy , scorpion , etc
-Carnaval murgas , parodistas, comparsas
-Hacer el efset de nuevo 
