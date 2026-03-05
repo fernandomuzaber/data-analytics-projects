@@ -845,7 +845,9 @@ Data Gateway:
     Desde power bi service, en descargas en la parte superior derecha, me bajo la puerta de enlace de datos (data gateway)
     Tengo que poner el = mail que uso en el workspace y en power bi desktop (son =)
     Desde el origen de datos o modelo semantico, voy a programar actualizacion:
-        Editar credenciales => 
+        Editar credenciales => poner organizacional y ya se habilita el refresh. Se puede programar diaria o semanalmente y ver el historial de actualizacion desde esa pestaña
+
+        
 -----------------------------------------------------------0-----------------------------------------------------------
 
 
