@@ -847,7 +847,7 @@ Data Gateway:
     Desde el origen de datos o modelo semantico, voy a programar actualizacion:
         Editar credenciales => poner organizacional y ya se habilita el refresh. Se puede programar diaria o semanalmente y ver el historial de actualizacion desde esa pestaña
 
-        
+11 a favor de work 
 -----------------------------------------------------------0-----------------------------------------------------------
 
 
