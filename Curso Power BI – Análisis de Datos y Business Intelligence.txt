@@ -851,6 +851,8 @@ Sin el datagateway, puedo usar un servicio cloud como one drive o drive para sub
 
 Desde power bi service, area de trabajo en configuracion se puede personalizar distintas funcionalidades a nivel administracion de espacio de trabajo , logos , portadas y permisos
 
+Hasta 146 
+
 -----------------------------------------------------------0-----------------------------------------------------------
 
 
