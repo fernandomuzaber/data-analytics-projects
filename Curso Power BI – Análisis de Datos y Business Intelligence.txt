@@ -855,11 +855,7 @@ Desde excel me puedo a conectar directamente al conjunto de datos de los reporte
     Con esto puedo crear tablas dinamicas directamente a la fuente de datos de pbi 
     Puedo acceder a != conjuntos de datos y analizarlos en un mismo archivo Excel 
 
-
 Until 149 => Funciones adicionales de Power BI (Taller)
-
-
-
 -----------------------------------------------------------0-----------------------------------------------------------
 
 
