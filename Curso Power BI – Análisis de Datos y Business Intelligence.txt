@@ -851,7 +851,13 @@ Sin el datagateway, puedo usar un servicio cloud como one drive o drive para sub
 
 Desde power bi service, area de trabajo en configuracion se puede personalizar distintas funcionalidades a nivel administracion de espacio de trabajo , logos , portadas y permisos
 
-Hasta 146 
+Desde excel me puedo a conectar directamente al conjunto de datos de los reportes con mi misma cuenta que este logueado en Excel. 
+    Con esto puedo crear tablas dinamicas directamente a la fuente de datos de pbi 
+    Puedo acceder a != conjuntos de datos y analizarlos en un mismo archivo Excel 
+
+
+Until 149 => Funciones adicionales de Power BI (Taller)
+
 
 -----------------------------------------------------------0-----------------------------------------------------------
 
@@ -892,3 +898,6 @@ https://learn.microsoft.com/es-es/power-bi/enterprise/service-premium-faq
 
 https://learn.microsoft.com/es-es/power-bi/enterprise/service-premium-per-user-faq
 
+
+Video para profundizar en metricas y cuadros de mando en PBI Service:
+https://www.youtube.com/watch?v=hHFPO9wCLvw
