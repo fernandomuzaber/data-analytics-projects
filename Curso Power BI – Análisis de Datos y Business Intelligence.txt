@@ -847,7 +847,15 @@ Data Gateway:
     Desde el origen de datos o modelo semantico, voy a programar actualizacion:
         Editar credenciales => poner organizacional y ya se habilita el refresh. Se puede programar diaria o semanalmente y ver el historial de actualizacion desde esa pestaña
 
-11 a favor de work 
+Sin el datagateway, puedo usar un servicio cloud como one drive o drive para subir el xls y que se vaya actualizando automaticamente con cada actuaizacion (se carga como web con el link del xls cloud)
+
+Desde power bi service, area de trabajo en configuracion se puede personalizar distintas funcionalidades a nivel administracion de espacio de trabajo , logos , portadas y permisos
+
+Desde excel me puedo a conectar directamente al conjunto de datos de los reportes con mi misma cuenta que este logueado en Excel. 
+    Con esto puedo crear tablas dinamicas directamente a la fuente de datos de pbi 
+    Puedo acceder a != conjuntos de datos y analizarlos en un mismo archivo Excel 
+
+Until 149 => Funciones adicionales de Power BI (Taller)
 -----------------------------------------------------------0-----------------------------------------------------------
 
 
@@ -887,3 +895,6 @@ https://learn.microsoft.com/es-es/power-bi/enterprise/service-premium-faq
 
 https://learn.microsoft.com/es-es/power-bi/enterprise/service-premium-per-user-faq
 
+
+Video para profundizar en metricas y cuadros de mando en PBI Service:
+https://www.youtube.com/watch?v=hHFPO9wCLvw
