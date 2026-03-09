@@ -859,6 +859,7 @@ Desde excel me puedo a conectar directamente al conjunto de datos de los reporte
 Until 149 => Funciones adicionales de Power BI (Taller)
 
 
+
 -----------------------------------------------------------0-----------------------------------------------------------
 
 
