@@ -854,9 +854,18 @@ Desde power bi service, area de trabajo en configuracion se puede personalizar d
 Desde excel me puedo a conectar directamente al conjunto de datos de los reportes con mi misma cuenta que este logueado en Excel. 
     Con esto puedo crear tablas dinamicas directamente a la fuente de datos de pbi 
     Puedo acceder a != conjuntos de datos y analizarlos en un mismo archivo Excel 
-    
 
-Until 149 => Funciones adicionales de Power BI (Taller)
+
+Errores comunes y tips con Power Query:
+
+Tips:
+
+- Definir como tablas los datos en Excel
+- Revisar los tipos de datos de los campos
+- Renombrar pasos aplicados
+- Menos pasos es mejor (mayor rendimiento)
+- Query editor (Power Query) para corrección y limpieza de tablas/datos. DAX Para operaciones/cálculos
+- Habilitar opciones de pestaña "View" / "Vista" (Barra de formulas siempre visible)
 
 -----------------------------------------------------------0-----------------------------------------------------------
 
