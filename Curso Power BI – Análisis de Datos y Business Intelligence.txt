@@ -867,6 +867,7 @@ Tips:
 - Query editor (Power Query) para corrección y limpieza de tablas/datos. DAX Para operaciones/cálculos
 - Habilitar opciones de pestaña "View" / "Vista" (Barra de formulas siempre visible)
 
+Hasta 150 
 -----------------------------------------------------------0-----------------------------------------------------------
 
 
