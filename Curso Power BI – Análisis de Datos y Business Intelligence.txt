@@ -876,7 +876,8 @@ Cuando uso una carpeta donde ahi se tiran archivos que deberian irse actualizand
         La estructura de datos de TODOS los archivos debe ser la misma
         Si selecciono una hoja, se debe llamar igual en cada archivo también.
 
-Hasta 151
+Conectar PDF:
+
 -----------------------------------------------------------0-----------------------------------------------------------
 
 
