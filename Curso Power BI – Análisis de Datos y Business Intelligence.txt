@@ -875,6 +875,8 @@ Cuando uso una carpeta donde ahi se tiran archivos que deberian irse actualizand
         Si selecciono de ejemplo una tabla, todas las tablas se deben llamar igual
         La estructura de datos de TODOS los archivos debe ser la misma
         Si selecciono una hoja, se debe llamar igual en cada archivo también.
+
+Hasta 151
 -----------------------------------------------------------0-----------------------------------------------------------
 
 
