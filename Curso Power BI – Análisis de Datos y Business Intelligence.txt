@@ -867,7 +867,14 @@ Tips:
 - Query editor (Power Query) para corrección y limpieza de tablas/datos. DAX Para operaciones/cálculos
 - Habilitar opciones de pestaña "View" / "Vista" (Barra de formulas siempre visible)
 
-Hasta 150 
+
+Al usar tablas en excel, si estas se mueven, mientras tome en pbi como tabla me lo va a seguir tomando. Verificar que tome todas las celdas
+
+Cuando uso una carpeta donde ahi se tiran archivos que deberian irse actualizando, selecciono carpeta como origen de datos y pongo combinar y transformar datos.
+    Una vez ahi, verifico que tome todo. Tips>
+        Si selecciono de ejemplo una tabla, todas las tablas se deben llamar igual
+        La estructura de datos de TODOS los archivos debe ser la misma
+        Si selecciono una hoja, se debe llamar igual en cada archivo también.
 -----------------------------------------------------------0-----------------------------------------------------------
 
 
