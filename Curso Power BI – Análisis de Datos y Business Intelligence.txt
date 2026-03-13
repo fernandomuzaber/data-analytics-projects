@@ -880,11 +880,14 @@ Conectar PDF:
     Se usa el conector PDF 
     Cuando las tablas vienen en distinta hoja, para anexar columnas deben ser los encabezados iguales, si no los tiene le saco los encabezados a la que los tenga para normalizar los datos.
 
+Fuentes con diferente formato ejemplo fecha:
+    Cuando uso el locale/ Usar configuracion regional => debo chequear la configuracion de la computadora (idioma de teclado, de windows , configuracion regional) y la de pbi tanto global como local
+        Se pone el tipo de dato en origen en el desplegable, y power query lo transforma segun la configuracion que uno tenga en su maquina 
 
 -----------------------------------------------------------0-----------------------------------------------------------
 
 
-**Para ver en algun momento**  => extension de conocimiento en DAX y Bookmarks en Power BI 
+**Para ver en algun momento**  
 
     Playlist para ver en algun momento:
     https://www.youtube.com/playlist?list=PLXR1MU_rf6FLumpTjiArxZ_Z3kCCEYSNH
