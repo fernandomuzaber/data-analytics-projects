@@ -888,6 +888,8 @@ Fuentes con diferente formato ejemplo fecha:
 Copiar consultas entre reportes (Power query):
     Desde editor avanzado me puedo llevar una tabla de un reporte a otro
     Tambien desde la consulta => click derecho Copy/Copiar y la pego y funciona 
+
+until 154
 -----------------------------------------------------------0-----------------------------------------------------------
 
 
