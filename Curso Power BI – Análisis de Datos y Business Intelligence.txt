@@ -877,6 +877,9 @@ Cuando uso una carpeta donde ahi se tiran archivos que deberian irse actualizand
         Si selecciono una hoja, se debe llamar igual en cada archivo también.
 
 Conectar PDF:
+    Se usa el conector PDF 
+    Cuando las tablas vienen en distinta hoja, para anexar columnas deben ser los encabezados iguales, si no los tiene le saco los encabezados a la que los tenga para normalizar los datos.
+
 
 -----------------------------------------------------------0-----------------------------------------------------------
 
