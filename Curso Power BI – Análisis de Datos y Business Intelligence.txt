@@ -884,6 +884,10 @@ Fuentes con diferente formato ejemplo fecha:
     Cuando uso el locale/ Usar configuracion regional => debo chequear la configuracion de la computadora (idioma de teclado, de windows , configuracion regional) y la de pbi tanto global como local
         Se pone el tipo de dato en origen en el desplegable, y power query lo transforma segun la configuracion que uno tenga en su maquina 
 
+
+Copiar consultas entre reportes (Power query):
+    Desde editor avanzado me puedo llevar una tabla de un reporte a otro
+    Tambien desde la consulta => click derecho Copy/Copiar y la pego y funciona 
 -----------------------------------------------------------0-----------------------------------------------------------
 
 
