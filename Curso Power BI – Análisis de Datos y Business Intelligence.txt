@@ -892,7 +892,10 @@ Copiar consultas entre reportes (Power query):
 Datasets:
 kaggle.com/datasets
 
-Hasta 155  
+Fondos en pptx: 
+
+Se diseñan desde estilos, o desde insertar formas , el texto es mas recomendable agregarselo desde pbi 
+Se guardan como png o jpg y se insertan de fondo en el pbi 
 -----------------------------------------------------------0-----------------------------------------------------------
 
 
