@@ -903,6 +903,10 @@ power bi layout => googlear, ideas para la visual del reporte (idem dashboard la
 
 Tips con visualizaciones de matriz:
 
+En Proyecto DAX - Bonus => Matriz ampliada , buenas ideas
+Cuando deshabilito los iconos en desktop, impactan en service, no asi en desktop
+
+Tab M2 tiene buena idea de formato condicional por dia en base a colores y margen de utilidad con slicers 
 -----------------------------------------------------------0-----------------------------------------------------------
 
 
