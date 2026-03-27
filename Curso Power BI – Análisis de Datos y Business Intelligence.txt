@@ -896,6 +896,12 @@ Fondos en pptx:
 
 Se diseñan desde estilos, o desde insertar formas , el texto es mas recomendable agregarselo desde pbi 
 Se guardan como png o jpg y se insertan de fondo en el pbi 
+
+Recursos:
+flaticon => iconos para el reporte 
+power bi layout => googlear, ideas para la visual del reporte (idem dashboard layout)
+
+
 -----------------------------------------------------------0-----------------------------------------------------------
 
 
