@@ -901,6 +901,7 @@ Recursos:
 flaticon => iconos para el reporte 
 power bi layout => googlear, ideas para la visual del reporte (idem dashboard layout)
 
+Tips con visualizaciones de matriz:
 
 -----------------------------------------------------------0-----------------------------------------------------------
 
