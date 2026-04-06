@@ -911,6 +911,9 @@ Tab M2 tiene buena idea de formato condicional por dia en base a colores y marge
 Decomposition tree => arbol de visualizacion
     Exploratoria
     Practica en DAX - Bonus (Tab decomposition tree)
+    Para la toma de decisiones, saber como esta compuesto un determinado valor/metrica y tener en cuenta sus mayores influencias que lo componentes
+    
+Key influencers:
 
 -----------------------------------------------------------0-----------------------------------------------------------
 
