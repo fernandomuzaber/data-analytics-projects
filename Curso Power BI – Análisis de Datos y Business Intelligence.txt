@@ -912,8 +912,6 @@ Decomposition tree => arbol de visualizacion
     Exploratoria
     Practica en DAX - Bonus (Tab decomposition tree)
 
-
-
 -----------------------------------------------------------0-----------------------------------------------------------
 
 
