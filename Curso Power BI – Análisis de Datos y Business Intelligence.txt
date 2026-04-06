@@ -916,6 +916,8 @@ Decomposition tree => arbol de visualizacion
 Key influencers:
     Analizar => medidas / categorias (Es recomendable usar categorias y no medidas)
     Explicar por => categorias de alto nivel 
+
+158 15'
 -----------------------------------------------------------0-----------------------------------------------------------
 
 
