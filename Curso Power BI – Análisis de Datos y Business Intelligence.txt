@@ -917,6 +917,14 @@ Key influencers:
     Analizar => medidas / categorias (Es recomendable usar categorias y no medidas)
     Explicar por => categorias de alto nivel 
 
+Múltiples formas de personalizar interacciones:
+
+    En Analytics.pbix => ideas interesantes con bookmarks, fechas y estados que cambian al hacer click. Emulación de la pagina de Analytics de youtube.
+    Interesantes ideas en youtube idea1, 2 y 3 
+
+Actualizaciones de pbi e ideas para los reportes:
+
+
 -----------------------------------------------------------0-----------------------------------------------------------
 
 
