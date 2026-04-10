@@ -926,6 +926,8 @@ Actualizaciones de pbi e ideas para los reportes:
 
     Proyecto Tickets Report - Actualizacion 2020-jun.pbix
     Tickets de soporte técnico
+
+    
 -----------------------------------------------------------0-----------------------------------------------------------
 
 
